@@ -25,7 +25,7 @@ if __name__ == "__main__":
 ```
 > naked anime girl 
 ```
-```json
+```bash
 {
     'labels': [
         {
