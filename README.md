@@ -22,8 +22,31 @@ def main() -> int:
 if __name__ == "__main__":
     exit(main())
 ```
-```json
+```
 > naked anime girl 
-{'labels': [{'label': 'neutral', 'score': 0.002601000713184476}, {'label': 'porn', 'score': 0.9957257509231567}, {'label': 'cp', 'score': 0.001233138027600944}, {'label': 'violence', 'score': 0.0004401823098305613}], 'score': 0.9957257509231567, 'prediction': 'porn'}
+```
+```json
+{
+    'labels': [
+        {
+            'label': 'neutral', 
+            'score': 0.002601000713184476
+        }, 
+        {
+            'label': 'porn', 
+            'score': 0.9957257509231567
+        }, 
+        {
+            'label': 'cp', 
+            'score': 0.001233138027600944
+        }, 
+        {
+            'label': 'violence', 
+            'score': 0.0004401823098305613
+        }
+    ], 
+    'score': 0.9957257509231567, 
+    'prediction': 'porn'
+}
 ```
 
