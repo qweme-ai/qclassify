@@ -3,7 +3,7 @@ A single file pipeline for sequence classification
 
 ### Usage
 ```py
-from qclass import QClassifyPipeline
+from qclassify import QClassifyPipeline
 
 device = "cpu"
 labels = ["neutral", "porn", "cp", "violence"]
